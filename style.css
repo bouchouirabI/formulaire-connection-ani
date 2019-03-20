@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(body.jpg)
+}
+.formulaire
+{
+    width: 300px;
+    padding: 40px;
+    background: #8789e99d;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    text-align: center;
+    border-radius: 40px 0 40px ;
+}
+
+.formulaire input[ type=text], .formulaire input[type= password]{
+    border: 0;
+    background: none;
+    display: block;
+    border-radius: 0 20px 0 20px;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #cd76e6;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+}
+.formulaire input[ type=text]:focus, .formulaire input[type= password]{
+    
+    border-radius: 20px 0 20px;
+    margin: 10px auto;
+    text-align: center;
+    border-color: #ffffff;
+    padding: 14px 10px;
+    width: 250px;
+}
+.formulaire input[ type=submit]{
+    border: 0;
+    background: none;
+    display: block;
+    border-radius: 0 20px 0 20px;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #cd76e6;
+    padding: 14px 10px;
+    width: 200px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.formulaire input[ type=submit]:hover{
+    background:#fff;
+    border-radius: 20px 0 20px;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #cd76e6;
+    padding: 14px 10px;
+    width: 200px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.formulaire h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
